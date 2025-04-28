@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	float lado, area;
+	cout << "Ingresa la longitud del lado del cuadrado: ";
+	cin >> lado;
+	area = lado * lado;
+	cout << "El C!rea del cuadrado es: " << area << endl;
+	return 0;
+}
