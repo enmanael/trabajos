@@ -1,0 +1,18 @@
+Glosario:
+Comando/Funcion           ¿Que hace?                              Ejemplo
+len()                  Devuelve la longitud(nmero de carcteres)   len("hola") ->4
+                       de una cadena
+upper()                Convierte todos los caracteres de una      "hola".upper()->"HOLA"
+                       cadena de minusculas                       
+LOWER()                Convierte todos los caracteres de una      "HOLA".lower()->"hola"
+                       cadena mayusculas
+strip()                Elimina los espacios en blanco(u otros     "hola".strip()->
+                       caracteres) al inicio y al final de        "hola"
+                       la cadena
+replace()              Remplaza una subcadena por otra dentro      "hola
+                       de la cadena                                 mundo".replace("mundo", 
+                                                                   "Phynton")->"hola
+                                                                    Phyton
+split()                Divide una cadena en una lista usando
+                       separador especifico                        "uno,dos,tres".split(",")
+                                                                  ->["uno,"dos","tres"]
